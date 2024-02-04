@@ -1,0 +1,1 @@
+A simple html/JavaScript based app to get inputs from user, manipulate input and throw it back to user
