@@ -12,17 +12,32 @@
             text-align: left;
             color: black;
         }
+        
+        #form_div{
+            background-color: rgb(152, 171, 233);
+            width:max-content;
+            padding: 20px;
+            border-radius: 5px;
+            border-color: solid black;
+        }
+
+        #submitBtn{
+            width: 75px;
+            height: 30px;
+            text-align: center;
+            cursor:pointer;
+            padding: 5px;
+            
+        }
     </style>
 </head>
 <body>
     <h1>Sample Birthday App</h1>
-    <div>
+    <div id="form_div">
         <label>Name</label><input id="firstName" type="text" title="Name"><br><br>
+        <label>Year of Birth</label><input id="yearofBirth" type="number" title="Year of Birth"><br><br>
+        <button id="submitBtn" onclick="alertUser();">Submit</button>
     </div>
-    
-    <label>Year of Birth</label><input id="yearofBirth" type="number" title="Year of Birth"><br><br>
-    <button id="submitBtn" onclick="alertUser();">Submit</button>
-    <div id="holdresult"></div>
     
 </body>
 </html>
